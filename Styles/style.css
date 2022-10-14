@@ -11,3 +11,11 @@ body {
 body * {
     box-sizing: border-box;
 }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: mediumpurple;
+}
