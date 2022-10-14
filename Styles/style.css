@@ -17,5 +17,20 @@ body * {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: mediumpurple;
+    background-color: #6356ab;
+}
+
+.btn {
+    width: 350px;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 8px;
+    color: #FFFFFF;
+    background: #6356ab;
+    cursor: pointer;
 }
