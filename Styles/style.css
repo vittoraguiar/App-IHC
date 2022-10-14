@@ -1,0 +1,13 @@
+/* Arquivo onde serão feitas as mudanças padrão para todas as páginas */
+
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', monospace, sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
