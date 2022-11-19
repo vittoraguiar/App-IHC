@@ -2,35 +2,38 @@
 
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
     margin: 0;
-    font-family: 'Montserrat', monospace, sans-serif;
 }
 
 body * {
     box-sizing: border-box;
+    font-family: 'Poppins', 'Montserrat', monospace, sans-serif;
 }
 
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.box {
     text-align: center;
-    background-color: #6356ab;
 }
 
-.btn {
-    width: 350px;
-    padding: 16px 0px;
-    margin: 25px;
+.box button {
+    width: 60vw;
+    margin: 30px auto;
+}
+
+.btn-click {
+    width: 200px;
+    height: 60px;
+    margin: 10px auto;
     border: none;
-    border-radius: 12px;
+    border-radius: 10px;
     outline: none;
-    text-transform: uppercase;
-    font-weight: 800;
+    text-transform: lowercase;
+    font-weight: 600;
+    font-size: 24px;
     letter-spacing: 8px;
     color: #FFFFFF;
-    background: #6356ab;
+    background: #ffa84b;
     cursor: pointer;
 }

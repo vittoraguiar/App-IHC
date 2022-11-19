@@ -1,0 +1,27 @@
+body {
+    background-image: url(../Images/camada2.jpg);
+    background-size: cover;
+}
+
+.title {
+    text-align: center;
+    margin: 25px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-box {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-click {
+    width: 40%;
+    height: 50px;
+}
