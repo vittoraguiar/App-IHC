@@ -1,18 +1,10 @@
 body {
-    background: url(http://37.media.tumblr.com/5b05e20451ea38227d7ff44c833f3ba9/tumblr_n1vu7lhb7e1r54c4oo1_1280.gif);
+    background-image: url(../Images/camada1.jpg);
+    background-size: cover;
 }
 
-.container {
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
+.box > h2 {
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
 }
-
-.box {
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-

@@ -9,28 +9,47 @@
 
     <!-- Link to CSS -->
     <link rel="stylesheet" href="../Styles/style.css">
+    <link rel="stylesheet" href="../Styles/map.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar">
-        <h1>Início</h1>
+    <nav class="navbar navbar-light" style="background-color: #ffa84b;">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-auto" href="#">
+                <h2><strong>BusBus</strong></h2>
+            </a>
+        </div>
     </nav>
     <main>
         <div class="container">
-            <div class="box">
-                <button class="btn" onclick="location.href='index.html'"">Voltar</button>
-            </div>
             <div class=" box">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3513.7032788653046!2d-54.27285628430773!3d-28.277012758287047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94fe90ad9828829b%3A0xe810e5b75ccc8c72!2sURI%20Campus%20de%20Santo%20%C3%82ngelo!5e0!3m2!1spt-BR!2sbr!4v1665716073060!5m2!1spt-BR!2sbr"
-                        width="300" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                        width="300" height="520" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
             </div>
-
+            <div class="box">
+                <button class="btn-click" onclick="location.href='index.html'">Voltar</button>
+            </div>
         </div>
     </main>
+    <!-- Script -->
     <script src="../JavaScript/index.js"></script>
+    <!-- jQuery, Popper.js e Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
