@@ -1,5 +1,5 @@
 body {
-    background-image: url(../Images/camada2.jpg);
+    background-image: url(../Images/camada4.jpg);
     background-size: cover;
 }
 
@@ -17,7 +17,6 @@ body {
 }
 
 .flex-box {
-    margin-top: 20px;
     text-align: center;
 }
 
@@ -26,8 +25,9 @@ body {
     height: 50px;
 }
 
-.linhas{
-    background-color: #fff;
+.linhas {
+    background-color: rgba(255, 255, 255, 0.863);
     border-radius: 8px;
-    padding: 2px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
